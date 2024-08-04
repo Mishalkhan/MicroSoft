@@ -1,0 +1,153 @@
+/* margin and padding didn't apply on inline */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Navbar */
+.navbar_section{
+    height: 50px;
+}
+.container{
+    padding: 10px 0px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+
+}
+
+.navbar ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+  /* text-decoration: underline; */
+/* .navbar ul li a:hover{
+    border-bottom: 2px solid red;
+    padding:0%;
+
+} */
+
+/* Cards Section2 */
+.card_section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 22%;
+}
+.card .img img{
+    width: 100%;
+}
+
+.body h2{
+    font-family: inherit;
+    line-height: 1.5;
+    padding: 10px 0px;
+}
+.body p{
+    font-size: 18;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.body a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0067B8;
+}
+
+/* Follow Line Section 3 */
+.follow_line{
+    display: flex;
+    align-items: center;
+
+}
+.follow_line_content{
+    padding-right:40px;
+    font-size: 17px;
+}
+.follow_line_icons{
+    padding-right:40px;
+    font-size: 20px;
+}
+
+/* Footer Section 4 */
+.footer{
+    background-color: #F2F2F2;
+}
+.footer_container{
+    width: 90%;
+    margin: auto;
+    background-color: #F2F2F2;
+}
+.inner_container{
+    display: flex;
+}
+.card1{
+    width: 15%;
+    padding: 35px 45px 40px 0px;
+}
+.card1 ul{
+    list-style-type: none;
+}
+
+.card1 ul li h4{
+    font-size: 17px;
+    line-height: 2.7;    
+    color: #616161;
+}
+.card1 ul li a{
+    font-size: 13px;
+    line-height: 2.7;
+    text-decoration: none;
+    color: #616161;
+}
+
+/* Footer 2 Section 5 */
+.inner_container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_container_content{
+    display: flex;
+    align-items: center;
+}
+
+.last_line_icon1{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #616161;
+}
+.last_line_icon2{
+    padding-right: 10px;
+    font-size: 20px;
+    color:#0066FF;
+}
+.inner_container1 p{
+    padding-right: 40px;
+    font-size: 13px;
+}
+.inner_container1 ul{
+    list-style-type: none;
+    display: flex;
+}
+.inner_container1 ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    padding: 0px 10px;
+}
